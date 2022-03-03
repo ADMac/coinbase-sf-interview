@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Origin_Chain__c</fullName>
+    <description>The blockchain where the tokens were originally deployed</description>
+    <externalId>false</externalId>
+    <label>Origin Chain</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ethereum</fullName>
+                <default>false</default>
+                <label>Ethereum</label>
+            </value>
+            <value>
+                <fullName>Polygon</fullName>
+                <default>false</default>
+                <label>Polygon</label>
+            </value>
+            <value>
+                <fullName>Solana</fullName>
+                <default>false</default>
+                <label>Solana</label>
+            </value>
+            <value>
+                <fullName>Avalanche</fullName>
+                <default>false</default>
+                <label>Avalanche</label>
+            </value>
+            <value>
+                <fullName>Tezos</fullName>
+                <default>false</default>
+                <label>Tezos</label>
+            </value>
+            <value>
+                <fullName>Near</fullName>
+                <default>false</default>
+                <label>Near</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
