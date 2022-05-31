@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title = "Search Accounts" icon-name = "custom:custom63">
+        <div style="height: 300px;">
+            <lightning-button variant="brand" label="Get Assets" title="Get Assets" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+            <lightning-datatable
+                    hide-checkbox-column="true"
+                    data={assets}
+                    columns={columns}>
+            </lightning-datatable>
+        </div>    
+    </lightning-card>
+</template>
